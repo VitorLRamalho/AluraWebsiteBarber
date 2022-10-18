@@ -1,0 +1,173 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 20px 0;             
+    background: #cccccc
+    
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform:uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration:none;
+    transition: 0.5s all;
+}
+
+nav a:hover{
+    color: #e995a2;
+}
+
+nav a:active{
+    color: red;
+}
+
+body {
+    margin: 0;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+.produtos li{
+   display: inline-block; 
+   text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1.5%;
+   padding: 30px 20px;
+   box-sizing: border-box;
+   border: 2px solid #000000;
+   border-radius: 10px;
+   transition: 0.5s all;
+
+}
+
+.produtos li:hover{
+    border-color: #e995a2;
+}
+
+.produtos li:active{
+    border-color: red;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descrição{
+    font-size: 18px;
+}
+
+.produto-preço{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+footer{
+    padding: 40px 0;
+    text-align: center;
+    background: url("imagens/bg.jpg");
+}
+
+.copyright{
+color: #ffffff;
+font-size: 13px;
+margin: 20px 0 0;
+transition: 1s;
+cursor: default;
+
+}
+
+.copyright:hover{
+    color: red;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrão{
+    display: block;
+    margin: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin:20px 0;
+}
+
+.Enviar{
+    width: 40%;
+    padding: 15px 0;
+    color:white;
+    background: #e995a2 ;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius:5px;
+    transition: 1s all;
+    cursor: pointer;
+} 
+
+.Enviar:hover{
+    background-color: red;
+    transform: scale(1.2);
+
+}
+
+table{
+    margin: 10px 0 40px;
+}
+
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border:1px solid #000000;
+}
